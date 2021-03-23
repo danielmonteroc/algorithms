@@ -18,7 +18,7 @@ public class FirstCharacterThatRepeats {
      * <p>Run unit test (.gradlew test) successfully
      */
     public static char getFirstRepeatCharacter(String input) {
-
+    //Test
         return 0;
     }
 }
