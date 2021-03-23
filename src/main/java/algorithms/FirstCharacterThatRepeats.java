@@ -9,9 +9,9 @@ public class FirstCharacterThatRepeats {
      *
      * <p>input: "abcbca" Returns: 'b'
      *
-     * <p>input: "" returns: -1
+     * <p>input: "" returns: 0
      *
-     * <p>input: "abcdefghijklmnopqrstuvwxyz" returns: -1
+     * <p>input: "abcdefghijklmnopqrstuvwxyz" returns: 0
      *
      * <p>Acceptance criteria:
      *

@@ -19,7 +19,7 @@ class FirstCharacterThatRepeatsTest {
 
     @Test
     void testEmpty() {
-        assertThat(getFirstRepeatCharacter("abcbca")).isEqualTo(0);
+        assertThat(getFirstRepeatCharacter("")).isEqualTo((char) 0);
     }
 
     @Test
@@ -34,6 +34,6 @@ class FirstCharacterThatRepeatsTest {
 
     @Test
     void testNotRepeatedLongString() {
-        assertThat(getFirstRepeatCharacter("abcdefghijklmnopqrstuvwxyz")).isEqualTo(0);
+        assertThat(getFirstRepeatCharacter("abcdefghijklmnopqrstuvwxyz")).isEqualTo((char) 0);
     }
 }
